@@ -1,0 +1,29 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+
+body {
+	background: #fcfcfc;
+	margin: 200px;
+	font-family: "Bitter", "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+h1 {
+	font-size: 36px;
+	color: #444;
+	font-weight: 700;
+}
+
+h2 {
+	font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;;
+	font-size: 18px;
+	font-weight: 400;
+	color: #777;
+	line-height: 1.5em;
+}
+
+.contactinfo {
+	position: absolute;
+	bottom: 12px;
+	right: 12px
+	}
