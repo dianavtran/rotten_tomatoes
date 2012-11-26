@@ -1,29 +1,66 @@
 @import url(http://fonts.googleapis.com/css?family=Bitter:400,700,400italic);
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600);
 
 body {
-	background: #fcfcfc;
-	margin: 200px;
+	background: #fefefe;
+	margin: 175px;
 	font-family: "Bitter", "Helvetica Neue", Arial, Helvetica, sans-serif;
 	font-size: 14px;
 }
 
 h1 {
 	font-size: 36px;
-	color: #444;
+	color: #333;
 	font-weight: 700;
 }
 
 h2 {
-	font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;;
+	font-family: "Open Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
 	font-size: 18px;
 	font-weight: 400;
 	color: #777;
 	line-height: 1.5em;
 }
 
+#container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+hr {
+	margin: 20px 0 -20px 0;
+}
+
 .contactinfo {
+	font-family: "Open Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;;
 	position: absolute;
 	bottom: 12px;
 	right: 12px
 	}
+	
+a {
+	color: #00BA58;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+}
+
+ul {
+	padding: 0;
+	margin-top: 35px;
+	font-weight: 600;
+	line-height: 2em;
+	font-size: 14px;
+	text-align: center;
+}
+
+ul a{
+	color: #fb6302;
+}
+
+ul li {
+	display: inline;
+	margin-right: 25px;
+}
