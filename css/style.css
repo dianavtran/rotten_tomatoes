@@ -27,8 +27,11 @@ body {
 #footer {
 	width: 100%;
 	position: absolute;
-	height: 100px;
+	height: 60px;
 	background: #3B923A;
+	text-align: center;
+	padding: 20px;
+	color: #FDEE00;
 }
 
 .moviepage {
@@ -115,9 +118,10 @@ input.form {
 	display: block;
 	width: 155px;
 	background: #30782F;
-	margin: 0 0 0 7px;
-	padding: 9px 12px 9px 15px;
+	margin: -3px 0 0 5px;
+	padding: 13px 0px 8px 29px;
 	float: right;
+	border-radius: 3px;
 }
 
 .signup:hover {
@@ -127,8 +131,72 @@ input.form {
 
 .signup h2 {
 	color: #fff;
+	font-size: 16px;
 }
 
+.poster {
+	padding: 5px 5px 0 5px;
+	background: #efefef;
+	max-width: 175px;
+	vertical-align: middle;
+}
+
+.left {
+	width: 185px;
+	float: left;
+}
+
+.right {
+	float: left;
+	padding: 0 13px;
+}
+
+#tomatometer_wrapper {
+	width: 100%;
+}
+
+#tomatometer_wrapper h3 {
+	color: #555;
+	margin: -3px 0 0 0;
+}
+
+#tomatometer_wrapper hr {
+	width: 100%;
+	margin: 0 0 -4px -2px;
+	background: #ccc;
+}
+
+.fresh {
+	color: #EC0428;
+	font-size: 50px;
+	font-weight: 700;
+	padding: 0 8px;
+	letter-spacing: -2px;
+	margin-bottom: -10px;
+}
+
+.bad {
+	color: #91B14F;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.tomatometer_c {
+	float: left;
+	width: 155px;
+	background: #F8F7EF;
+	padding: 8px 12px;
+	text-align: center;
+}
+
+.tomatometer_a {
+	float: left;
+	width: 155px;
+  padding: 8px 12px;
+  background: #F8F7EF;
+  margin-left: 5px;
+  text-align: center;
+}
 
 /* -------- Lists ---------- */
 
@@ -156,7 +224,7 @@ ul.scores li {
 	background: url('../img/fresh.png') no-repeat top left;
 }
 
-li.rotten {
+ul.scores li.rotten {
 	background: url('../img/rotten.png') no-repeat top left;
 }
 
@@ -180,7 +248,16 @@ ul.news li {
 	display: inline;
 	padding: 0 0 0 25px;
 	font-size: 13px;
-	color: #E5F915;
+	color: #FDEE00;
+}
+
+.nav ul a {
+	color: #FDEE00;
+	text-decoration: none;
+}
+
+.nav ul li:hover {
+	color: #FF7427;
 }
 
 
