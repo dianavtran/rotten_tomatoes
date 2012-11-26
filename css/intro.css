@@ -3,7 +3,6 @@
 
 body {
 	background: #fefefe;
-	margin: 175px;
 	font-family: "Bitter", "Helvetica Neue", Arial, Helvetica, sans-serif;
 	font-size: 14px;
 }
@@ -24,7 +23,7 @@ h2 {
 
 #container {
 	width: 800px;
-	margin: 0 auto;
+	margin: 150px auto;
 }
 
 hr {
@@ -35,8 +34,8 @@ hr {
 	font-family: "Open Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;;
 	position: absolute;
 	bottom: 12px;
-	right: 12px
-	}
+	right: 12px;
+}
 	
 a {
 	color: #00BA58;
