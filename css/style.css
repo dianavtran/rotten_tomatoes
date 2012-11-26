@@ -36,10 +36,33 @@ body {
 
 .moviepage {
 	background: #fff;
-	height: 400px;
+	height: 800px;
 	border-top: 2px solid #FF7427;
 	border-bottom: 2px solid #FF7427;
 	padding: 0 20px;
+}
+
+.sosh {
+	margin-top: -32px;
+	padding-bottom: 3px;
+}
+
+#movieinfo {
+	width: 360px;
+	font-size: 13px;
+	padding-left: 15px;
+	padding-top: 10px;
+	display: inline-block;
+}
+
+#movieinfo h3 {
+	margin: 0 0 0 0;
+	padding: 5px 0 0 0;
+}
+
+#movieinfo hr {
+	margin: 3px 0;
+	width: 100%;
 }
 
 .ratingsbox {
@@ -57,6 +80,7 @@ body {
 	float: right;
 	margin: -15px 8px 0 0;
 	font-size: 12px;
+	display: block;
 }
 
 .four_outside {
@@ -153,6 +177,7 @@ input.form {
 
 #tomatometer_wrapper {
 	width: 100%;
+	margin-bottom: 10px;
 }
 
 #tomatometer_wrapper h3 {
@@ -172,30 +197,41 @@ input.form {
 	font-weight: 700;
 	padding: 0 8px;
 	letter-spacing: -2px;
-	margin-bottom: -10px;
 }
 
 .bad {
 	color: #91B14F;
-	font-size: 40px;
+	font-size: 50px;
 	font-weight: 700;
+	padding: 0 8px;
+	letter-spacing: -2px;
+}
+
+.audience {
+	color: #FF7427;
+	font-size: 50px;
+	font-weight: 700;
+	padding: 9px 8px;
+	letter-spacing: -2px;
 }
 
 .tomatometer_c {
 	float: left;
 	width: 155px;
 	background: #F8F7EF;
-	padding: 8px 12px;
+	padding: 9px 12px;
 	text-align: center;
+	height: 133px;
 }
 
 .tomatometer_a {
 	float: left;
 	width: 155px;
-  padding: 8px 12px;
+  padding: 9px 12px;
   background: #F8F7EF;
   margin-left: 5px;
   text-align: center;
+  height: 133px;
 }
 
 /* -------- Lists ---------- */
@@ -285,6 +321,14 @@ hr {
 	background: #bbb;
 	width: 286px;
 	margin: 7px 7px 0 7px;
+}
+
+.smalltype {
+	font: "Source Sans Pro", "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #4D4D4D;
+	margin: -15px 0 0 0;
+	line-height: 1.5em;
 }
 
 .four h3 {
